@@ -211,10 +211,10 @@ export default function Home() {
           <p className="lead">Only a few get in. Every application is read by hand. Answer honestly, answer sharp - low-effort applications get deleted, and we can tell in one line. If you&apos;re a fit, you&apos;ll hear from us.</p>
           <div className="form-embed reveal">
             <iframe
-              data-tally-src="https://tally.so/embed/1ARGJg?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+              data-tally-src="https://tally.so/embed/1ARGJg?alignLeft=1&hideTitle=1&dynamicHeight=1"
               loading="lazy"
               width="100%"
-              height={500}
+              height={800}
               frameBorder={0}
               marginHeight={0}
               marginWidth={0}
