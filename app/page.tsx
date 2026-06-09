@@ -65,18 +65,18 @@ export default function Home() {
             <p className="lead">Inside, you&apos;re part of a small circle building what&apos;s next in media. We move fast, play to win, and reward the ones who deliver. These are the seats we&apos;re filling right now.</p>
           </div>
           <div className="roles">
-            <div className="role reveal"><div className="ic">SM</div><h4>Submissions Manager</h4><span>if you can review hundreds of clips and never pass a weak one</span></div>
-            <div className="role reveal"><div className="ic">LM</div><h4>Launch Manager</h4><span>if you can take a signed client live and running in days</span></div>
-            <div className="role reveal"><div className="ic">CS</div><h4>Clipper Success Director</h4><span>if you can turn a network of clippers into a machine</span></div>
-            <div className="role reveal"><div className="ic">EC</div><h4>Elite Clipper</h4><span>if your clips already pull millions and you want a seat on retainer</span></div>
+            <a href="#apply" className="role reveal"><div className="ic">SM</div><h4>Submissions Manager</h4><span>if you can review hundreds of clips and never pass a weak one</span></a>
+            <a href="#apply" className="role reveal"><div className="ic">LM</div><h4>Launch Manager</h4><span>if you can take a signed client live and running in days</span></a>
+            <a href="#apply" className="role reveal"><div className="ic">CS</div><h4>Clipper Success Director</h4><span>if you can turn a network of clippers into a machine</span></a>
+            <a href="#apply" className="role reveal"><div className="ic">EC</div><h4>Elite Clipper</h4><span>if your clips already pull millions and you want a seat on retainer</span></a>
           </div>
           <div className="also reveal">
             <span className="also-lbl">Also building out</span>
-            <span className="chip">Content</span>
-            <span className="chip">Engineering</span>
-            <span className="chip">Operations</span>
-            <span className="chip">Design</span>
-            <span className="chip">Elite at something else? Tell us</span>
+            <a href="#apply" className="chip">Content</a>
+            <a href="#apply" className="chip">Engineering</a>
+            <a href="#apply" className="chip">Operations</a>
+            <a href="#apply" className="chip">Design</a>
+            <a href="#apply" className="chip">Elite at something else? Tell us</a>
           </div>
         </div>
       </section>
