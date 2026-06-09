@@ -1,12 +1,10 @@
 import Image from "next/image";
-import SmoothScroll from "./components/SmoothScroll";
 import Reveals from "./components/Reveals";
 import TallyLoader from "./components/TallyLoader";
 
 export default function Home() {
   return (
     <>
-      <SmoothScroll />
       <Reveals />
       <TallyLoader />
 
