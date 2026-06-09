@@ -2,6 +2,7 @@ import Image from "next/image";
 import Reveals from "./components/Reveals";
 import SmoothAnchors from "./components/SmoothAnchors";
 import TallyLoader from "./components/TallyLoader";
+import TeamCluster from "./components/TeamCluster";
 
 export default function Home() {
   return (
@@ -151,18 +152,7 @@ export default function Home() {
                 <div className="typing"><i></i><i></i><i></i>{"\u00A0"}Jaidev is typing…</div>
               </div>
             </div>
-            <div className="floatcall reveal">
-              <span className="live"><span className="d"></span>LIVE · DAILY STANDUP</span>
-              <div className="vgrid">
-                <div className="vtile jpfp"><span className="vname">Jaidev Bhogal</span></div>
-                <div className="vtile kpfp"><span className="vname">Luka Filipovic</span></div>
-              </div>
-              <div className="calls">
-                <div className="cbtn"><svg viewBox="0 0 24 24"><use href="#ic-mic" /></svg></div>
-                <div className="cbtn"><svg viewBox="0 0 24 24"><use href="#ic-vid" /></svg></div>
-                <div className="cbtn end"><svg viewBox="0 0 24 24"><use href="#ic-phone" /></svg></div>
-              </div>
-            </div>
+            <TeamCluster />
           </div>
           <div className="titledesc reveal">
             <div className="td"><h4>Your own channel</h4><p>Direct access to Lara, Hassan and the core team inside #clip-capital-family. Daily communication, no gatekeeping.</p></div>
