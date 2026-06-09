@@ -80,6 +80,7 @@ export default function Home() {
             <a href="#apply" className="chip">Design</a>
             <a href="#apply" className="chip">Elite at something else? Tell us</a>
           </div>
+          <div className="section-cta"><a href="#apply" className="btn">Apply →</a></div>
         </div>
       </section>
 
@@ -95,6 +96,7 @@ export default function Home() {
             <div className="benefit reveal"><h4>Real payouts</h4><p>Long-term positions and real money. Not one-off gigs. But only for those who deliver.</p></div>
             <div className="benefit reveal"><h4>A room full of killers</h4><p>Surrounded by people as hungry as you are. Everyone here pushes everyone forward.</p></div>
           </div>
+          <div className="section-cta"><a href="#apply" className="btn">Apply →</a></div>
         </div>
       </section>
 
@@ -126,6 +128,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
+          <div className="section-cta"><a href="#apply" className="btn">Apply →</a></div>
         </div>
       </section>
 
@@ -168,6 +171,7 @@ export default function Home() {
             <div className="td"><h4>Your own channel</h4><p>Direct access to Lara, Hassan and the core team inside #clip-capital-family. Daily communication, no gatekeeping.</p></div>
             <div className="td"><h4>Daily standups</h4><p>Every day the team gets on a call with Jaidev and Luka - performance, planning, problem solving.</p></div>
           </div>
+          <div className="section-cta"><a href="#apply" className="btn">Apply →</a></div>
         </div>
       </section>
 
@@ -199,6 +203,7 @@ export default function Home() {
               <div className="fitrow no"><span className="mk no">×</span><p>You&apos;re looking for a side gig, not something to dominate</p></div>
             </div>
           </div>
+          <div className="section-cta"><a href="#apply" className="btn">Apply →</a></div>
         </div>
       </section>
 
