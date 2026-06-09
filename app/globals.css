@@ -18,13 +18,13 @@ h1,h2,.dh{font-family:var(--font-bricolage),sans-serif}
 .btn{font-family:var(--font-archivo);font-weight:600;font-size:14px;padding:10px 24px;border-radius:999px;border:none;cursor:pointer;background:linear-gradient(180deg,#A855F7,#7C3AED);color:#fff;transition:transform .25s,box-shadow .25s;text-decoration:none;display:inline-block}
 .btn:hover{transform:translateY(-2px);box-shadow:0 10px 32px -8px rgba(168,85,247,.55)}
 
-.hero{position:relative;text-align:center;padding:122px 0 112px;overflow:hidden}
+.hero{position:relative;text-align:center;min-height:calc(100svh - 72px);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:40px 0;overflow:hidden}
 .hero-glow{position:absolute;top:-140px;left:50%;transform:translateX(-50%);width:720px;height:720px;border-radius:50%;background:radial-gradient(circle,rgba(168,85,247,.22) 0%,rgba(168,85,247,.06) 36%,transparent 68%);pointer-events:none;will-change:transform}
-.hero-logo{width:74px;height:74px;border-radius:18px;margin:0 auto 26px;display:block;position:relative;z-index:2;box-shadow:0 8px 30px -6px rgba(168,85,247,.55)}
+.hero-logo{width:74px;height:74px;border-radius:18px;margin:0 auto 18px;display:block;position:relative;z-index:2;box-shadow:0 8px 30px -6px rgba(168,85,247,.55)}
 .hero .kick{position:relative;z-index:2;display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent-2);margin-bottom:24px}
 .hero .kick .d{width:6px;height:6px;border-radius:50%;background:var(--accent-2);box-shadow:0 0 10px rgba(168,85,247,.9)}
 .hero h1{position:relative;z-index:2;font-size:clamp(42px,6.6vw,80px);font-weight:800;line-height:1.02;letter-spacing:-.03em;max-width:16ch;margin:0 auto 28px}
-.hero p{position:relative;z-index:2;color:var(--muted);font-size:clamp(16px,2vw,19px);max-width:58ch;margin:0 auto 40px;line-height:1.55}
+.hero p{position:relative;z-index:2;color:var(--muted);font-size:clamp(16px,2vw,19px);max-width:58ch;margin:0 auto 30px;line-height:1.55}
 .hero-cta{position:relative;z-index:2}
 
 .stats{background:var(--bg-alt)}
