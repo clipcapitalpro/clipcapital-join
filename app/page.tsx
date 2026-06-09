@@ -209,7 +209,7 @@ export default function Home() {
           <span className="eyebrow" style={{ justifyContent: "center", display: "flex", position: "relative", zIndex: 2 }}>Apply below</span>
           <h2 style={{ marginTop: "20px" }}>Think you&apos;ve got what it <span className="accent">takes?</span></h2>
           <p className="lead">Only a few get in. Every application is read by hand. Answer honestly, answer sharp - low-effort applications get deleted, and we can tell in one line. If you&apos;re a fit, you&apos;ll hear from us.</p>
-          <div className="form-embed reveal">
+          <div className="form-embed">
             <iframe
               data-tally-src="https://tally.so/embed/1ARGJg?alignLeft=1&hideTitle=1&dynamicHeight=1"
               loading="lazy"
