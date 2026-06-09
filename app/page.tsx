@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Reveals from "./components/Reveals";
+import SmoothAnchors from "./components/SmoothAnchors";
 import TallyLoader from "./components/TallyLoader";
 
 export default function Home() {
   return (
     <>
       <Reveals />
+      <SmoothAnchors />
       <TallyLoader />
 
       {/* SVG icon defs */}
