@@ -129,7 +129,7 @@ footer{padding:40px 0;text-align:center;color:var(--muted-2);font-size:13px}
 @media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
 
 @media(max-width:900px){.stats-grid{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2){border-right:none}.stat{border-bottom:1px solid var(--line)}.roles{grid-template-columns:repeat(2,1fr)}.benefits{grid-template-columns:1fr}.track4 .grid,.teamsec .stage,.titledesc{grid-template-columns:1fr;gap:30px}}
-@media(max-width:560px){.wrap{padding:0 20px}.stats-grid{grid-template-columns:1fr}.stat{border-right:none}.roles{grid-template-columns:1fr}section.block{padding:74px 0}}
+@media(max-width:560px){.wrap{padding:0 20px}.stats-grid{grid-template-columns:1fr}.stat{border-right:none}.roles{grid-template-columns:1fr}section.block{padding:74px 0}.hero h1{font-size:28px;line-height:1.05}.hero{padding:40px 24px}.hero-logo{width:56px;height:56px;border-radius:14px;margin:0 auto 14px}}
 .fit .top{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;margin-bottom:58px}
 .fit h2{font-size:clamp(32px,4.4vw,54px);font-weight:800;letter-spacing:-.03em;line-height:1.05;max-width:11ch}
 .fit .top p{color:var(--muted);font-size:17px;line-height:1.6;padding-top:8px;max-width:46ch}
