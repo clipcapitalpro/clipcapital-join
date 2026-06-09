@@ -9,13 +9,13 @@ export default function Reveals() {
           if (e.isIntersecting) {
             setTimeout(
               () => e.target.classList.add("in"),
-              (i % 4) * 80
+              (i % 4) * 50
             );
             io.unobserve(e.target);
           }
         });
       },
-      { threshold: 0.14 }
+      { threshold: 0.01, rootMargin: "0px 0px -10% 0px" }
     );
     document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
     return () => io.disconnect();
