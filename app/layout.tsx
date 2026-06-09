@@ -19,6 +19,7 @@ export const metadata: Metadata = {
   title: "Join Clip Capital - Apply",
   description:
     "Apply to join Clip Capital. We move fast, play to win, and reward the ones who deliver.",
+  icons: { icon: "/cc-logo-purple.png" },
 };
 
 export default function RootLayout({
