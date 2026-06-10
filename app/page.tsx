@@ -30,7 +30,7 @@ export default function Home() {
       {/* Topbar */}
       <div className="topbar">
         <div className="brand">
-          <Image className="logo-tile" src="/cc-logo-purple.png" alt="Clip Capital" width={30} height={30} />
+          <Image className="logo-tile" src="/cc-logo-cyan.png" alt="Clip Capital" width={30} height={30} />
           {" "}Clip Capital
         </div>
         <a href="#apply" className="btn">Apply</a>
@@ -39,7 +39,7 @@ export default function Home() {
       {/* Hero */}
       <header className="hero">
         <div className="hero-glow"></div>
-        <Image className="hero-logo" src="/cc-logo-purple.png" alt="Clip Capital" width={74} height={74} />
+        <Image className="hero-logo" src="/cc-logo-cyan.png" alt="Clip Capital" width={74} height={74} />
         <span className="kick"><span className="d"></span>Invite only · By application</span>
         <h1>Get your shot at the #1 clipping <span className="accent">powerhouse</span> on the internet.</h1>
         <p>We don&apos;t hire openly. Every application is read by hand, and only a few make it inside - the most disciplined, creative, and hungry people in the game.</p>
@@ -115,12 +115,12 @@ export default function Home() {
               <svg viewBox="0 0 400 180" preserveAspectRatio="none">
                 <defs>
                   <linearGradient id="cg" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="0" stopColor="#7C3AED" />
-                    <stop offset="1" stopColor="#D9B8FB" />
+                    <stop offset="0" stopColor="#00A3C4" />
+                    <stop offset="1" stopColor="#A8EEFF" />
                   </linearGradient>
                   <linearGradient id="cf" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0" stopColor="rgba(168,85,247,.28)" />
-                    <stop offset="1" stopColor="rgba(168,85,247,0)" />
+                    <stop offset="0" stopColor="rgba(0,226,255,.28)" />
+                    <stop offset="1" stopColor="rgba(0,226,255,0)" />
                   </linearGradient>
                 </defs>
                 <path d="M0,158 L45,148 L95,135 L145,124 L195,100 L245,84 L295,55 L345,36 L400,12 L400,180 L0,180 Z" fill="url(#cf)" />
